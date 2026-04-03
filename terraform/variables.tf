@@ -25,7 +25,7 @@ variable "instance_type" {
 variable "root_volume_size_gb" {
   description = "Size of the root EBS volume in GB"
   type        = number
-  default     = 20
+  default     = 30
 }
 
 variable "allowed_ssh_cidr" {
